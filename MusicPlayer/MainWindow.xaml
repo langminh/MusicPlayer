@@ -98,7 +98,7 @@
                     </materialDesign:PackIcon.Foreground>
                 </materialDesign:PackIcon>
             </Button>
-            <StackPanel>
+            <StackPanel MouseLeftButtonDown="StackPanel_MouseLeftButtonDown">
                 <TextBlock Text="Music Player" HorizontalAlignment="Center" Foreground="LightSteelBlue"></TextBlock>
                 <TextBlock x:Name="txtNameSongTitle" Text="My Love - Westlife" HorizontalAlignment="Center" Foreground="LightSteelBlue"></TextBlock>
             </StackPanel>

@@ -548,5 +548,10 @@ namespace MusicPlayer
             }
             File.WriteAllText(AppDomain.CurrentDomain.BaseDirectory + "file.txt", content);
         }
+
+        private void StackPanel_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            DragMove();
+        }
     }
 }
